@@ -5,7 +5,8 @@ import weatherRoute from "./routes/weatherRoute.js";
 const app = express();
 
 // The port that the express server will listen on
-const PORT = 3000;
+const PORT = 4000;
+
 
 app.use(express.json());
 
